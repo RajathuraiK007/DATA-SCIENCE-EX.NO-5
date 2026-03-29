@@ -18,7 +18,23 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
- Include the necessary coding and corresponding screenshots
+
+```
+#importing the dataset
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+
+iris=load_iris()
+df=pd.DataFrame(data=iris.data, columns=iris.feature_names)
+```
+
+<img width="1322" height="448" alt="image" src="https://github.com/user-attachments/assets/5dad4536-a74e-495e-ae96-5f045e1e9215" />
+
+```
+
+```
 
 # Result:
  Include your result here
